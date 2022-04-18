@@ -1,0 +1,229 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #bdbdd9;
+    position: relative;
+    
+   
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 900;
+    padding:  10px;
+    transition: 1s;
+    
+    
+}
+
+.menu ul li:hover {
+    background-color: #fff;
+    
+}
+
+
+.menu ul li a::before{
+    content: "";
+    position: absolute;
+    top: -35%;
+    left: 10%;
+    height: 100%;
+    width: 0;
+    text-decoration: underline;
+    border-bottom: 3px solid black;
+    transition: .6s;
+}
+.menu ul li a:hover::before{
+    width: 80%;
+}
+.banner{
+  background-color: #48DBFB;
+  padding: 50px 0px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.content-banner{
+    text-align: center;
+}
+.content-banner P{
+color: white;
+padding: 10px 0;
+}
+
+.content-banner h1{
+color: white;
+padding: 20px 0;
+font-size: 40px;
+}
+
+.content-banner button{
+background-color: #fff;
+color: #ddd;
+width: 149px;
+height: 49px;
+border-radius: 10px;
+border: none;
+font-size: 20px;
+position: relative;
+z-index: 1;
+
+}
+
+.content-banner button::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   background-color: black;
+   transition: .4s;
+   z-index: -1;
+   border-radius: 10px;
+}
+.content-banner button:hover::before{
+    width: 100%;
+}
+.rotate{
+    text-align: center;
+    background-color: rgba(196, 188, 188, 0.295);
+    width: 1200px;
+    padding: 100px 0px;
+}
+.rotate p{
+    
+}
+.rotate h1{
+    font-weight: bold;
+}
+
+.box{
+    display: inline-block;
+    text-align: center;      
+}
+
+.img-1{
+    margin-top: 20px;
+}
+
+.img-1 img{
+  width: 20%;
+  margin: 10px;
+  transition: .6s;
+  
+}
+
+#one:hover{
+    transform: rotate(450deg);
+}
+
+#two:hover{
+    transform: skew(20deg,20deg);
+}
+
+#three:hover{
+   transform: rotate(20deg);
+}
+#four:hover{
+   transform: scale(1.2);
+}
+#four:hover{
+   transform: tranlate(10,29);
+}
+
+#five:hover{
+    transform: rotate(600deg);
+}
+#six:hover{
+    transform: scale(-1);
+}
+   
+#seven:hover{
+    transform: translate(30px,50px);
+}
+   
+#eight:hover{
+    transform: scale(1.2);
+}
+
+/* .service{
+    text-align: center;
+    margin-top: 100px;
+} */
+  .hover-sec .btn .bt-1{
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    text-align: left;
+    transform: rotate(-30deg);
+    margin-top: 50px;
+    transition: .4s;
+   
+  }  
+  .hover-sec .btn .bt-1:hover{
+      transform: rotate(0deg);
+      background-color: rgb(167, 167, 233);
+      border: none;
+  }
+
+.hover-sec .btn .bt-2{
+color: white;
+margin-left: 400px;
+background-color: black;
+padding: 15px 30px;
+transition: .4s;
+}  
+.hover-sec .btn .bt-2:hover{
+    background-color: rgb(167, 167, 233);
+    border: none;
+}
+
+  .hover-sec .btn .bt-3{
+    margin-left: 300px;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    transform: rotate(30deg);
+    transition: .4s;
+  }  
+  .hover-sec .btn .bt-3:hover{
+    transform: rotate(0deg);
+    background-color: rgb(167, 167, 233);
+    border: none;
+}
+  .service{
+    background-color: #EEEBEB;
+    padding: 90px 0px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: -28px;
+    
+  }
+  footer{
+      background-color: black;
+      color: white;
+      overflow: hidden;
+      padding: 20px 0px;
+      margin-bottom: -100px;
+      margin-top: 20px;
+  }
+  
+
+
